@@ -26,4 +26,4 @@ public class Main {
 }
 ```
 ### logback.xml
-[logback.xml下载地址](http)
+[logback.xml下载地址](https://raw.githubusercontent.com/mathcoder23/java-suit/main/java-suit-log/src/main/resources/logback.xml)
