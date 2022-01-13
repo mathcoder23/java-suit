@@ -1,3 +1,4 @@
+import cn.hutool.core.date.DateUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -17,5 +18,6 @@ public class Main {
         log.warn("this is log test");
         log.info("this is log test");
         log.debug("this is log test");
+
     }
 }
