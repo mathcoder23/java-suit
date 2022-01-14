@@ -4,13 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>java-suit</artifactId>
-        <groupId>com.pettyfox.base</groupId>
-        <version>1.0.0</version>
+        <groupId>com.pettyfox</groupId>
+        <version>1.1.0</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>java-suit-base</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
 
     <!-- version search:https://mvnrepository.com/ -->
 
