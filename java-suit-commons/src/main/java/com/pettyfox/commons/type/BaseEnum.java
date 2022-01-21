@@ -1,4 +1,4 @@
-package com.pettyfox.comms.type;
+package com.pettyfox.commons.type;
 
 
 /**

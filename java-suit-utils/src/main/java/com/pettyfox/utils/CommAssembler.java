@@ -1,7 +1,7 @@
 package com.pettyfox.utils;
 
 import cn.hutool.core.bean.BeanUtil;
-import com.pettyfox.comms.exception.DirtyException;
+import com.pettyfox.commons.exception.DirtyException;
 
 import java.util.List;
 import java.util.stream.Collectors;

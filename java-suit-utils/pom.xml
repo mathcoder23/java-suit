@@ -12,7 +12,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>java-suit-utils</artifactId>
-    <version>1.0.4</version>
+    <version>1.0.5</version>
 
     <!-- version search: https://mvnrepository.com/ -->
     <properties>
@@ -45,7 +45,7 @@
         </dependency>
         <dependency>
             <groupId>com.pettyfox</groupId>
-            <artifactId>java-suit-comms</artifactId>
+            <artifactId>java-suit-commons</artifactId>
             <version>1.0.1</version>
         </dependency>
 

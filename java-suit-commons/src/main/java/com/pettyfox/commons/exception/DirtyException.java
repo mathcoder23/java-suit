@@ -1,4 +1,4 @@
-package com.pettyfox.comms.exception;
+package com.pettyfox.commons.exception;
 
 
 /**
