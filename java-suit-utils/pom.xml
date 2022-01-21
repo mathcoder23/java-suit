@@ -12,9 +12,29 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>java-suit-utils</artifactId>
-    <version>1.0.3</version>
+    <version>1.0.4</version>
 
     <!-- version search: https://mvnrepository.com/ -->
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+    </properties>
+
+    <repositories>
+        <repository>
+            <id>nexus-aliyun</id>
+            <name>Nexus aliyun</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public</url>
+        </repository>
+
+        <!--    若无法拉pettyfox相关包，使用此仓库 -->
+        <repository>
+            <id>nexus-s01</id>
+            <name>Nexus s01</name>
+            <url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>
+        </repository>
+    </repositories>
 
     <dependencies>
 
@@ -22,6 +42,11 @@
             <groupId>com.pettyfox</groupId>
             <artifactId>java-suit-log</artifactId>
             <version>1.0.3</version>
+        </dependency>
+        <dependency>
+            <groupId>com.pettyfox</groupId>
+            <artifactId>java-suit-comms</artifactId>
+            <version>1.0.1</version>
         </dependency>
 
         <!-- 时间工具 -->

@@ -12,6 +12,7 @@
         <module>java-suit-log</module>
         <module>java-suit-base</module>
         <module>java-suit-utils</module>
+        <module>java-suit-comms</module>
     </modules>
 
     <name>java-suit</name>
